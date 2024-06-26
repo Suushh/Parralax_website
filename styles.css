@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-bottom: 100px; 
+}
+
+
+.navbar {
+    background-color: rgb(22, 23, 22);
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex; 
+    justify-content: center; 
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(231, 246, 165);
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.navbar a.active {
+    border-bottom: 2px solid white;
+}
+
+.footer {
+    background-color: rgb(22, 22, 22);
+    color: rgb(231, 246, 165);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+.parallax-section {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.section1 { background-image: url(https://www.hdwallpapers.in/download/sunflower_with_shedding_petals_4k_5k_hd_flowers-HD.jpg); }
+.section2 { background-image: url(https://live.staticflickr.com/8604/28251908022_b7140a773c.jpg); }
+.section3 { background-image: url(https://wallpaperaccess.com/full/1130414.jpg); }
+
+
+.content {
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
